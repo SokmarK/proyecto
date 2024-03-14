@@ -1,0 +1,118 @@
+*{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+
+body{
+    background-color: #f0f2f5;
+}
+
+
+.columna{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 30px;
+}
+
+.titulos{
+    padding: 15% 0 0 20%;
+    margin-top: 11%;
+}
+
+.pface{
+    margin: 0px 61px 0 0;
+    font-size: 28px;
+}
+
+
+.facep{
+    color: #1877F2;
+    font-size: 4em;
+    margin: 0.67em 0;
+}
+
+.formularios{
+    margin: 20% 20% 0 51px;
+    
+}
+
+.caja-formularios{
+    width: 90%;
+    border-radius: 9px;
+    background: #ffffff;
+    box-shadow: 10px 10px 20px #969696, -10px -10px 20px #ffffff;
+}
+
+.forms {
+    height: 45px;
+    width: 93%;
+    margin: 12px;
+    border: 1px solid  #c1bdbd;
+    border-radius: 5px;
+    text-align: center;
+    color: #cecbcb;
+    
+}
+
+.boton{
+    height: 50px;
+    width: 94.5%;
+    margin: 10px 10px 0;
+    color: #fff;
+    background-color: #0866ff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.parrafo1{
+    display: flex   ;
+    justify-content: center;
+    margin: 18px 18px 0;
+    font-size: 1rem;
+}
+
+.lineap{
+    border-bottom: 1px solid #757070;
+    margin: 30px 10px;
+    
+}
+
+.botonc{
+    height: 50px;
+    width: 220px;
+    margin: 0% 0 31px 100px;
+    color: #fff;
+    background-color: #42b72a;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.foobut{
+    padding: 14px 0 70px 0;
+    font-size: 14px;
+}
+
+
+footer{
+    background-color: #fff;
+    margin: 10% 0 0 0;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+.flexul{
+    display: flex; 
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 12px;
+}
+
+
