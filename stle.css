@@ -7,12 +7,6 @@ body{
     background-color: #f0f2f5;
 }
 
-a{
-    text-decoration: none;
-}
-
-
-
 .columna{
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -25,15 +19,15 @@ a{
 }
 
 .pface{
-    margin: 0px 61px 0 0;
-    font-size: 28px;
+    margin: 6px 19px 0 0;
+        font-size: 28px;
 }
 
 
 .facep{
     color: #1877F2;
     font-size: 4em;
-    margin: 0.67em 0;
+    margin: 0;
 }
 
 .formularios{
@@ -50,14 +44,16 @@ a{
 
 .forms {
     height: 45px;
-    width: 93%;
+    width: 87%;
     margin: 12px;
-    border: 1px solid  #c1bdbd;
+    border: 1px solid #c1bdbd;
     border-radius: 5px;
-    text-align: center;
-    color: #cecbcb;
-    
+    color: #a4a2a2;
+    font-size: 17px;
+    padding-left: 25px;
 }
+
+
 
 .boton{
     height: 50px;
@@ -69,13 +65,26 @@ a{
     border-radius: 5px;
     font-size: 1.3rem;
     font-weight: 700;
+    transition: 0.5s all;
+}
+
+.boton:hover{
+    cursor: pointer;
+    opacity: 93%;
+    
 }
 
 .parrafo1{
     display: flex   ;
     justify-content: center;
     margin: 18px 18px 0;
-    font-size: 1rem;
+    font-size: 14px;
+    color: #0866ff;
+    text-decoration: none;
+}
+
+.parrafo1:hover{
+    text-decoration: underline;
 }
 
 .lineap{
@@ -86,14 +95,20 @@ a{
 
 .botonc{
     height: 50px;
-    width: 220px;
-    margin: 0% 0 31px 100px;
+    width: 182px;
+    margin: 0% 0 30px 115px;
     color: #fff;
     background-color: #42b72a;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 17px;
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 7px;
+    transition: 0.5s all;
+}
+
+.botonc:hover{
+    cursor: pointer;
+    background: #379125;
 }
 
 .foobut{
@@ -111,24 +126,73 @@ footer{
 
 .flexul{
     display: flex; 
-    justify-content: space-evenly;
     list-style: none;
     font-size: 12px;
     color: #737373;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 10%;
+}
+.flexul li{
+    padding: 0px 6px 7px 0px;
+
+}
+
+.botonmas{
+    width: 30px;
+    height: fit-content;
 }
 
 .texta{
     font-weight: bold;
+    text-decoration: none;
 }
 
 .texta:visited{
     color: #000;
 }
 
+.texta:hover{
+    text-decoration: underline;
+}
+
 .textf{
     color: #737373;
     font-size: 12px;
 }
+
+.marginf{
+    margin-left: 10%;
+}
+
+
+.lineaf{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 10%;
+}
+
+.lista-larga{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 91%;
+}
+
+.lista-larga li{
+    padding:  0px 25px 4px 0px;
+    font-size: 12px;
+    color: #737373;
+}
+
+
+.derechos{
+    font-size: 12px;
+    color: #737373;
+    padding-bottom: 2%;
+}
+
+
 
 
 
